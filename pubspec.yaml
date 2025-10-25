@@ -1,0 +1,34 @@
+name: memory_aid_app
+description: A memory aid application
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_local_notifications: ^19.0.0
+  local_auth: ^2.1.7
+  timezone: ^0.10.0
+  cupertino_icons: ^1.0.6
+  speech_to_text: ^7.0.0
+  flutter_tts: ^4.2.2  # (Or check the latest stable version)
+  permission_handler: ^11.4.0
+  tflite_flutter: ^0.11.0
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/
+
+    
+
+
